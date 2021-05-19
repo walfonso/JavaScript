@@ -158,3 +158,18 @@ var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
 "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] ;
 var result = meses.slice(4,11);
 console.log(result);
+
+/**********************************************
+ *	4) If Else
+ ***********************************************/
+ /*
+		4.a) Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), 
+		si el valor es mayor o igual que 0,5 mostrar una alerta con el mensaje 
+		“Greater than 0,5” y sino un alerta con el mensaje “Lower than 0,5”
+	 */
+		var naleatorio = Math.random();
+		if (naleatorio >= 0.5){
+	 		console.log("Greater than 0,5: "+ naleatorio);
+		}else{
+			console.log("Lower than 0,5: "+ naleatorio);
+		}
