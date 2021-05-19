@@ -92,4 +92,16 @@ var palabra2 = cadena.substring(posicion, posicion+2).toUpperCase() + cadena.sub
 var result = palabra1 + palabra2;
 console.log(result);
 
+/*
+	3) Arrays
+	a) Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
+	"Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] mostrar por consola los meses 5 y
+	11 (utilizar console.log)
+*/
+var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
+"Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] ;
+var mes5 = meses[4];
+var mes11 = meses[10];
+console.log("Mes 5: " + mes5 + " " + "Mes 11: " + mes11);
+
 
