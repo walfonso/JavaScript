@@ -291,4 +291,27 @@ function validateInteger (n1){
 }
 console.log(validateInteger(10.5));
 
+/*	
+d) A la función suma del ejercicio 6b) agregarle una llamada que valide que los números 
+sean enteros. En caso que haya decimales mostrar un alerta con el error y retorna el 
+número convertido a entero (redondeado).
+*/
+function validateInt (n1){
+	if(Number.isInteger(n1)){
+		return true;
+	}
+	return false;
+}
+
+function sumaV1 (n1, n2) {
+	if (typeof n1 !== 'number' || typeof n2 !== 'number'){
+		console.log("Uno de los parámetros no es de tipo numerico");
+    return NaN;
+  }else if ((!validateInt(n1)) || (!validateInt(n2))){
+		console.log("Error hay un decimal");
+	 	return Math.round(n1) +  Math.round(n2);
+	}
+	return n1 + n2;
+}
+console.log(sumaV1(5, 9));
 
