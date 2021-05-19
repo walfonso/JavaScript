@@ -279,4 +279,16 @@ function sumaV1 (n1, n2) {
 }
 console.log(sumaV1(5, "DDD"));
 
+/*
+c) Crear una función validate integer que reciba un número como parámetro y devuelva
+verdadero si es un número entero.
+*/
+function validateInteger (n1){
+	if(Number.isInteger(n1)){
+		return true;
+	}
+	return false;
+}
+console.log(validateInteger(10.5));
+
 
