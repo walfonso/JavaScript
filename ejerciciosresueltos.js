@@ -211,7 +211,7 @@ un bucle for de JavaScript para mostrar una alerta utilizando cada una de las
 palabras.
 */
 var palabras = ['Programa', 'Algoritmo', 'Estructura', 'Control', 'Sentencia'];
-for (var value of palabras) {
+for (var value of palabras){
 	console.log("La palabra es: " + value);
 }
 
@@ -220,7 +220,7 @@ b) Al array anterior convertir la primera letra de cada palabra en mayúscula y
 mostrar una alerta por cada palabra modificada.
 */
 var palabras = ['programa', 'algoritmo', 'estructura', 'control', 'sentencia'];
-for (var value of palabras) {
+for (var value of palabras){
 	console.log("La palabra modificada: " + value.substring(0,1).toUpperCase() + value.substring(1,).toLowerCase());
 }
 
@@ -235,7 +235,7 @@ var palabras = ['Programa', 'Algoritmo', 'Estructura', 'Control', 'Sentencia'];
 for (var value of palabras) {
 	sentence = sentence + value +" ";
 }
-	console.log("Cadena completa es: " + sentence);
+console.log("Cadena completa es: " + sentence);
 
 /*
 d) Crear una array vacío y con un bucle for de 10 repeticiones llenar el array 
@@ -245,7 +245,22 @@ numero 9. Mostrar por la consola del navegador el al array final
 (utilizar console.log).
 */
 var miArreglo = [];
-for (var i = 0; i < 10; i++) {
-  miArreglo[i] = i;
+for (var i = 0; i < 10; i++){
+	miArreglo[i] = i;
 }
 console.log(miArreglo);
+
+/*********************************************************
+ * 6) Funciones
+ ********************************************************/
+/*
+a) Crear una función suma que reciba dos valores numéricos y retorne el resultado. 
+Ejecutar la función y guardar el resultado en una variable, mostrando el valor de 
+dicha variable en la consola del navegador.
+*/
+function suma (n1, n2) {
+  return n1 + n2;
+}
+let miResultado = suma(10,10);
+console.log("La suma es de : "+ miResultado);
+
