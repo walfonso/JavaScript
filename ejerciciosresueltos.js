@@ -214,3 +214,12 @@ var palabras = ['Programa', 'Algoritmo', 'Estructura', 'Control', 'Sentencia'];
 for (var value of palabras) {
 	console.log("La palabra es: " + value);
 }
+
+/*
+b) Al array anterior convertir la primera letra de cada palabra en mayúscula y
+mostrar una alerta por cada palabra modificada.
+*/
+var palabras = ['programa', 'algoritmo', 'estructura', 'control', 'sentencia'];
+for (var value of palabras) {
+	console.log("La palabra modificada: " + value.substring(0,1).toUpperCase() + value.substring(1,).toLowerCase());
+}
