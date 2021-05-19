@@ -45,5 +45,19 @@ var cadena = "programacion";
 var result = cadena.substring(0,5);
 console.log(result);
 
+/*
+	2.c) Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo 
+	string con los últimos 3 caracteres guardando el resultado en una nueva variable 
+	(utilizar substring).
+*/
+var cadena = "programacion";
+var result = cadena.substring(9,12);
+console.log(result);
+
+// Mejora: cualquier longitud de cadena muestra lo ultimos 3 caracteres
+var cadena = "Estructuras";
+var result = cadena.substring(cadena.length-3,cadena.length);
+console.log("Aplica Mejora: "+result)
+
 
 
