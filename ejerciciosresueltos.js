@@ -69,4 +69,12 @@ var cadena = "eSTRUCTURAS";
 var result = cadena.substring(0,1).toUpperCase() + cadena.substring(1,).toLowerCase();
 console.log(result);
 
+/*
+	2.e) Crear una variable de tipo string con al menos 10 caracteres y algún espacio 
+	en blanco. Encontrar la posición del primer espacio en blanco y guardarla en una 
+	variable (utilizar indexOf).
+*/
+var cadena = "Prog ramas POO";
+var result = cadena.indexOf(" ");
+console.log("Posición: "+result);
 
