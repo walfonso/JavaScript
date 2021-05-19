@@ -235,4 +235,17 @@ var palabras = ['Programa', 'Algoritmo', 'Estructura', 'Control', 'Sentencia'];
 for (var value of palabras) {
 	sentence = sentence + value +" ";
 }
-	console.log("Cadena completa es: " + sentence)
+	console.log("Cadena completa es: " + sentence);
+
+/*
+d) Crear una array vacío y con un bucle for de 10 repeticiones llenar el array 
+con el número de la repetición, es decir que al final de la ejecución del bucle 
+for deberia haber 10 elementos dentro del array, desde el número 0 hasta al 
+numero 9. Mostrar por la consola del navegador el al array final 
+(utilizar console.log).
+*/
+var miArreglo = [];
+for (var i = 0; i < 10; i++) {
+  miArreglo[i] = i;
+}
+console.log(miArreglo);
