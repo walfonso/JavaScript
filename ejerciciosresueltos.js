@@ -202,9 +202,9 @@ if (age<2){
 	console.log("Anciano: "+ age)
 }
 
-/**********************************************
- * 5) For
- *********************************************/
+/*
+ 5) For
+*/
 /*
 a) Crear un array que contenga 5 palabras y recorrer dicho array utilizando
 un bucle for de JavaScript para mostrar una alerta utilizando cada una de las
