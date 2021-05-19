@@ -326,12 +326,13 @@ function valNum(n1, n2) {
 	}
 	}
 	
-	function sumaV3(n1, n2) {
-	if (valNum(n1, n2) !== NaN) {
-	return n1 + n2;
-	}
-	return NaN;
+	function sumaV3(n1, n2){
+		if (valNum(n1, n2) !== NaN) {
+			return n1 + n2;
+		}
+		return NaN;
 	}
 	console.log(sumaV3(23, 10));
+	
 
 
