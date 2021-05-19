@@ -271,10 +271,10 @@ tiene error y retornar el valor NaN como resultado.
 */
 function sumaV1 (n1, n2) {
   if (typeof n1 !== 'number' || typeof n2 !== 'number'){
-	console.log("Uno de los parámetros no es de tipo numerico");
+    console.log("Uno de los parámetros no es de tipo numerico");
     return NaN;
   }else{
-	return n1 + n2;
+    return n1 + n2;
   }
 }
 console.log(sumaV1(5, "DDD"));
