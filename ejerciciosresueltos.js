@@ -26,3 +26,15 @@ var cadena1 = "Hola";
 var cadena2 = "Mundo";
 var result = cadena1.length + cadena2.length;
 console.log(result);
+
+/*
+	2) Strings
+	a) Crear una variable de tipo string con al menos 10 caracteres y convertir todo 
+	el texto en mayúscula (utilizar toUpperCase).
+*/
+var cadena = "Hola mundo!!";
+cadena = cadena.toUpperCase();
+console.log(cadena);
+
+
+
