@@ -223,3 +223,16 @@ var palabras = ['programa', 'algoritmo', 'estructura', 'control', 'sentencia'];
 for (var value of palabras) {
 	console.log("La palabra modificada: " + value.substring(0,1).toUpperCase() + value.substring(1,).toLowerCase());
 }
+
+/*
+c) Crear una variable llamada “sentence” que tenga un string vacío, luego al 
+array del punto a) recorrerlo con un bucle for para ir guardando cada palabra 
+dentro de la variable sentence. Al final mostrar una única alerta con la cadena 
+completa.
+*/
+var sentence = "";
+var palabras = ['Programa', 'Algoritmo', 'Estructura', 'Control', 'Sentencia'];
+for (var value of palabras) {
+	sentence = sentence + value +" ";
+}
+	console.log("Cadena completa es: " + sentence)
