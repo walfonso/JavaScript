@@ -159,9 +159,9 @@ var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
 var result = meses.slice(4,11);
 console.log(result);
 
-/**********************************************
- * 4) If Else
- **********************************************/
+/*
+4) If Else
+*/
 /*
 4.a) Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), 
 si el valor es mayor o igual que 0,5 mostrar una alerta con el mensaje 
