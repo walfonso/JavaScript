@@ -304,7 +304,7 @@ function validateInt (n1){
 }
 
 function sumaV1 (n1, n2) {
-	if (typeof n1 !== 'number' || typeof n2 !== 'number'){
+  if (typeof n1 !== 'number' || typeof n2 !== 'number'){
 		console.log("Uno de los parámetros no es de tipo numerico");
     return NaN;
   }else if ((!validateInt(n1)) || (!validateInt(n2))){
@@ -320,17 +320,17 @@ e) Convertir la validación del ejercicio 6b) en una función separada y llamarl
 la función suma probando que todo siga funcionando igual.
 */
 function valNum(n1, n2){
-	if (typeof n1 !== 'number' || typeof n2 !== 'number') {
-		console.log("Uno de los parámetros no es de tipo numerico");
-		return NaN;
-	}
+  if (typeof n1 !== 'number' || typeof n2 !== 'number') {
+    console.log("Uno de los parámetros no es de tipo numerico");
+	return NaN;
+  }
 }
 
 function sumaV3(n1, n2){
-	if (valNum(n1, n2) !== NaN){
-		return n1 + n2;
-	}
-	return NaN;
+  if (valNum(n1, n2) !== NaN){
+    return n1 + n2;
+  }
+  return NaN;
 }
 console.log(sumaV3(23, 10));
 
