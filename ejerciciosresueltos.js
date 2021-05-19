@@ -270,12 +270,12 @@ los parámetros no es un número, mostrar una alerta aclarando que uno de los pa
 tiene error y retornar el valor NaN como resultado.
 */
 function sumaV1 (n1, n2) {
-	if (typeof n1 !== 'number' || typeof n2 !== 'number'){
-		console.log("Uno de los parámetros no es de tipo numerico");
+  if (typeof n1 !== 'number' || typeof n2 !== 'number'){
+	console.log("Uno de los parámetros no es de tipo numerico");
     return NaN;
   }else{
-		return n1 + n2;
-	}
+	return n1 + n2;
+  }
 }
 console.log(sumaV1(5, "DDD"));
 
@@ -284,10 +284,10 @@ c) Crear una función validate integer que reciba un número como parámetro y d
 verdadero si es un número entero.
 */
 function validateInteger (n1){
-	if(Number.isInteger(n1)){
-		return true;
-	}
-	return false;
+  if(Number.isInteger(n1)){
+    return true;
+  }
+  return false;
 }
 console.log(validateInteger(10.5));
 
@@ -297,21 +297,21 @@ sean enteros. En caso que haya decimales mostrar un alerta con el error y retorn
 número convertido a entero (redondeado).
 */
 function validateInt (n1){
-	if(Number.isInteger(n1)){
-		return true;
-	}
-	return false;
+  if(Number.isInteger(n1)){
+    return true;
+  }
+  return false;
 }
 
 function sumaV1 (n1, n2) {
   if (typeof n1 !== 'number' || typeof n2 !== 'number'){
-		console.log("Uno de los parámetros no es de tipo numerico");
+	console.log("Uno de los parámetros no es de tipo numerico");
     return NaN;
   }else if ((!validateInt(n1)) || (!validateInt(n2))){
-		console.log("Error hay un decimal");
-	 	return Math.round(n1) +  Math.round(n2);
-	}
-	return n1 + n2;
+	console.log("Error hay un decimal");
+	return Math.round(n1) +  Math.round(n2);
+  }
+  return n1 + n2;
 }
 console.log(sumaV1(5, 9));
 
@@ -322,7 +322,7 @@ la función suma probando que todo siga funcionando igual.
 function valNum(n1, n2){
   if (typeof n1 !== 'number' || typeof n2 !== 'number') {
     console.log("Uno de los parámetros no es de tipo numerico");
-	return NaN;
+    return NaN;
   }
 }
 
