@@ -168,9 +168,9 @@ si el valor es mayor o igual que 0,5 mostrar una alerta con el mensaje
 */
 var naleatorio = Math.random();
 if (naleatorio >= 0.5){
-	console.log("Greater than 0,5: "+ naleatorio);
+  console.log("Greater than 0,5: "+ naleatorio);
 }else{
-	console.log("Lower than 0,5: "+ naleatorio);
+  console.log("Lower than 0,5: "+ naleatorio);
 }
 
 /*
@@ -186,19 +186,19 @@ vii) “Anciano” si es mayor a 75 años
 */
 var age = 44;
 if (age<2){
-	console.log("Bebe: "+ age);
+  console.log("Bebe: "+ age);
 }else if ((age>=2) && (age<=12)){
-	console.log("Niño: "+ age);
+  console.log("Niño: "+ age);
 }else if ((age>=13) && (age<=19)){
-	console.log("Adolescente: "+ age);
+  console.log("Adolescente: "+ age);
 }else if ((age>=20) && (age<=30)){
-	console.log("Joven: "+ age);
+  console.log("Joven: "+ age);
 }else if ((age>=31) && (age<=60)){
-	console.log("Adulto: "+ age);
+  console.log("Adulto: "+ age);
 }else if ((age>=61) && (age<=75)){
-	console.log("Adulto mayor: "+ age);
+  console.log("Adulto mayor: "+ age);
 }else{
-	console.log("Anciano: "+ age)
+  console.log("Anciano: "+ age)
 }
 
 /*
@@ -232,7 +232,7 @@ completa.
 var sentence = "";
 var palabras = ['Programa', 'Algoritmo', 'Estructura', 'Control', 'Sentencia'];
 for (var value of palabras){
-	sentence = sentence + value +" ";
+  sentence = sentence + value +" ";
 }
 console.log("Cadena completa es: " + sentence);
 
@@ -308,8 +308,8 @@ function sumaV1 (n1, n2) {
 	console.log("Uno de los parámetros no es de tipo numerico");
     return NaN;
   }else if ((!validateInt(n1)) || (!validateInt(n2))){
-	console.log("Error hay un decimal");
-	return Math.round(n1) +  Math.round(n2);
+    console.log("Error hay un decimal");
+    return Math.round(n1) +  Math.round(n2);
   }
   return n1 + n2;
 }
