@@ -211,7 +211,7 @@ palabras.
 */
 var palabras = ['Programa', 'Algoritmo', 'Estructura', 'Control', 'Sentencia'];
 for (var value of palabras){
-	console.log("La palabra es: " + value);
+  console.log("La palabra es: " + value);
 }
 
 /*
@@ -220,7 +220,7 @@ mostrar una alerta por cada palabra modificada.
 */
 var palabras = ['programa', 'algoritmo', 'estructura', 'control', 'sentencia'];
 for (var value of palabras){
-	console.log("La palabra modificada: " + value.substring(0,1).toUpperCase() + value.substring(1,).toLowerCase());
+  console.log("La palabra modificada: " + value.substring(0,1).toUpperCase() + value.substring(1,).toLowerCase());
 }
 
 /*
@@ -245,7 +245,7 @@ numero 9. Mostrar por la consola del navegador el al array final
 */
 var miArreglo = [];
 for (var i = 0; i < 10; i++){
-	miArreglo[i] = i;
+  miArreglo[i] = i;
 }
 console.log(miArreglo);
 
