@@ -201,3 +201,16 @@ if (age<2){
 }else{
 	console.log("Anciano: "+ age)
 }
+
+/**********************************************
+ * 5) For
+ *********************************************/
+/*
+a) Crear un array que contenga 5 palabras y recorrer dicho array utilizando
+un bucle for de JavaScript para mostrar una alerta utilizando cada una de las
+palabras.
+*/
+var palabras = ['Programa', 'Algoritmo', 'Estructura', 'Control', 'Sentencia'];
+for (var value of palabras) {
+	console.log("La palabra es: " + value);
+}
