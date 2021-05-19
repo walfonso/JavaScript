@@ -104,4 +104,13 @@ var mes5 = meses[4];
 var mes11 = meses[10];
 console.log("Mes 5: " + mes5 + " " + "Mes 11: " + mes11);
 
+/*	
+	3.b) Ordenar el array de meses alfabéticamente y mostrarlo
+	por consola (utilizar sort).
+*/
+var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
+"Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] ;
+meses.sort();
+console.log(meses);
+
 
