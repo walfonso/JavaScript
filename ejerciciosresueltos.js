@@ -232,7 +232,7 @@ completa.
 */
 var sentence = "";
 var palabras = ['Programa', 'Algoritmo', 'Estructura', 'Control', 'Sentencia'];
-for (var value of palabras) {
+for (var value of palabras){
 	sentence = sentence + value +" ";
 }
 console.log("Cadena completa es: " + sentence);
@@ -320,15 +320,15 @@ console.log(sumaV1(5, 9));
 e) Convertir la validación del ejercicio 6b) en una función separada y llamarla dentro de 
 la función suma probando que todo siga funcionando igual.
 */
-function valNum(n1, n2){
-	if (typeof n1 !== 'number' || typeof n2 !== 'number'){
+function valNum(n1, n2) {
+	if (typeof n1 !== 'number' || typeof n2 !== 'number') {
 		console.log("Uno de los parámetros no es de tipo numerico");
 		return NaN;
-  }
+	}
 }
 
-function sumaV3 (n1, n2){
-	if (valNum(n1, n2) !==  NaN){
+function sumaV3(n1, n2) {
+	if (valNum(n1, n2) !== NaN) {
 		return n1 + n2;
 	}
 	return NaN;
