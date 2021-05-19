@@ -123,3 +123,12 @@ var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
 meses.unshift('PrincipioMes');
 meses.push('finalMes');
 console.log(meses)
+
+/*	
+	3.d) Quitar un elemento del principio y del final del array (utilizar shift y pop).
+*/
+var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
+"Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] ;
+meses.shift();
+meses.pop();
+console.log(meses);
