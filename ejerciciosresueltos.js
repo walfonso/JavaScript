@@ -16,3 +16,13 @@ var cadena1 = "Hola ";
 var cadena2 = "Mundo";
 var result = cadena1 + cadena2;
 console.log(result);
+
+/*
+	1.c) Crear dos variables de tipo String y sumar el largo de cada variable 
+	(cantidad de letras del string) guardando el resultado la suma una 3er variable 
+	(utilizar length).
+*/
+var cadena1 = "Hola"; 
+var cadena2 = "Mundo";
+var result = cadena1.length + cadena2.length;
+console.log(result);
