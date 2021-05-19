@@ -149,3 +149,12 @@ var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
 "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] ;
 var result = meses.join("-");
 console.log(result);
+
+/*
+	3.g) Crear una copia del array de meses que contenga desde Mayo hasta Noviembre 
+	(utilizar slice).
+*/
+var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
+"Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] ;
+var result = meses.slice(4,11);
+console.log(result);
