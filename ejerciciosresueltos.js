@@ -59,5 +59,14 @@ var cadena = "Estructuras";
 var result = cadena.substring(cadena.length-3,cadena.length);
 console.log("Aplica Mejora: "+result)
 
+/*
+	2.d) Crear una variable de tipo string con al menos 10 caracteres y generar un 
+	nuevo string con la primera letra en mayúscula y las demás en minúscula. 
+	Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, 
+	toLowerCase y el operador +).
+*/
+var cadena = "eSTRUCTURAS";
+var result = cadena.substring(0,1).toUpperCase() + cadena.substring(1,).toLowerCase();
+console.log(result);
 
 
