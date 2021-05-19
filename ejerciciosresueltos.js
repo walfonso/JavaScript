@@ -264,3 +264,19 @@ function suma (n1, n2) {
 let miResultado = suma(10,10);
 console.log("La suma es de : "+ miResultado);
 
+/*
+b) A la función suma anterior, agregarle una validación para controlar si alguno de 
+los parámetros no es un número, mostrar una alerta aclarando que uno de los parámetros 
+tiene error y retornar el valor NaN como resultado.
+*/
+function sumaV1 (n1, n2) {
+	if (typeof n1 !== 'number' || typeof n2 !== 'number'){
+		console.log("Uno de los parámetros no es de tipo numerico");
+    return NaN;
+  }else{
+		return n1 + n2;
+	}
+}
+console.log(sumaV1(5, "DDD"));
+
+
