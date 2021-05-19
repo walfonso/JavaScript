@@ -322,16 +322,17 @@ la función suma probando que todo siga funcionando igual.
 */
 function valNum(n1, n2) {
 	if (typeof n1 !== 'number' || typeof n2 !== 'number') {
-		console.log("Uno de los parámetros no es de tipo numerico");
-		return NaN;
+	console.log("Uno de los parámetros no es de tipo numerico");
+	return NaN;
 	}
-}
-
-function sumaV3(n1, n2) {
+	}
+	
+	function sumaV3(n1, n2) {
 	if (valNum(n1, n2) !== NaN) {
-		return n1 + n2;
+	return n1 + n2;
 	}
 	return NaN;
-}
-console.log(sumaV3(23, 10));
+	}
+	console.log(sumaV3(23, 10));
+
 
